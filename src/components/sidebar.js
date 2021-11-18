@@ -43,19 +43,19 @@ function SideBar(props) {
         {/* <!-- Nav Item - Dashboard --> */}
         <li class="nav-item">
           <Link to="/add-students">
-            <a class="nav-link" href="#">
+            <button class="nav-link" href="#">
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>Add Student</span>
-            </a>
+            </button>
           </Link>
         </li>
         {/* <!-- Nav Item - Dashboard --> */}
         <li class="nav-item">
           <Link to="/all-students">
-            <a class="nav-link" href="#">
+            <button class="nav-link" href="#">
               <i class="fas fa-fw fa-tachometer-alt"></i>
               <span>All Students</span>
-            </a>
+            </button>
           </Link>
         </li>
         {/* <!-- Divider --> */}
